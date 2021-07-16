@@ -1,0 +1,150 @@
+.simpleCharSheet {
+  padding: 5px;
+  -webkit-box-shadow: 0px 0px 4px 0px #000;
+  box-shadow: 0px 0px 4px 0px #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.simpleCharSheet .attrList {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 5px;
+  padding-left: 0px;
+  height: calc(100% - 20px);
+}
+.simpleCharSheet .attrList li {
+  min-width: 60px;
+  min-height: 60px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 3px;
+  padding: 3px 3px 0 3px;
+  margin: 5px;
+}
+.simpleCharSheet .attrList li div:first-child {
+  font-size: 0.9em;
+  font-weight: bolder;
+}
+.simpleCharSheet .attrList li div:nth-child(2) {
+  font-size: 1.4em;
+}
+.simpleCharSheet .attrList li div:last-child {
+  padding: 2px;
+  border-radius: 10px;
+  margin-bottom: -3px;
+  background-color: white;
+}
+.simpleCharSheet .infoblock {
+  width: 100%;
+  padding: 10px;
+}
+.simpleCharSheet .infoblock .name {
+  font-size: 2em;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.simpleCharSheet .infoblock .typeBlock {
+  font-size: 0.9em;
+  padding-bottom: 10px;
+}
+.simpleCharSheet .infoblock .statBlock {
+  font-size: 1.1em;
+}
+.simpleCharSheet .infoblock .statBlock table td:first-child {
+  font-weight: bolder;
+  padding-right: 5px;
+}
+.simpleCharSheet .infoblock .abilityBlock,
+.simpleCharSheet .infoblock .actionsBlock {
+  font-size: 1.1em;
+  margin-top: 8px;
+  padding-top: 5px;
+}
+.simpleCharSheet .infoblock .abilityBlock p,
+.simpleCharSheet .infoblock .actionsBlock p {
+  margin: 7px;
+}
+.simpleCharSheet .infoblock .abilityBlock .tittle,
+.simpleCharSheet .infoblock .actionsBlock .tittle {
+  margin: 5px;
+  font-size: 1.3em;
+}
+.menu {
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 4px 0px #000;
+  box-shadow: 0px 0px 4px 0px #000;
+  text-align: center;
+  font-size: 1.2em;
+}
+.menu strong {
+  margin: 5px;
+}
+.menu #spell_attack,
+.menu #spell_level {
+  margin: auto;
+  width: 10%;
+  font-size: 0.8em;
+  margin-bottom: 7px;
+}
+.menu .seperater {
+  height: 100%;
+  width: 1px;
+}
+.menu button {
+  padding: 5px;
+  width: 10%;
+  border-radius: 0px;
+  -webkit-box-shadow: 0px 0px 4px 0px #000;
+  box-shadow: 0px 0px 4px 0px #000;
+  border: 0px;
+}
+.menu button:hover,
+.menu button.bselected {
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+.menu #sub {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 7px;
+  width: 20%;
+}
+.action_roll:hover,
+#monster_action_Multiattack:hover,
+#monster_action_Maul:hover {
+  border: 1px solid #58170d;
+  cursor: pointer;
+  padding: 5px;
+}
+.multieAttack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
